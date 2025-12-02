@@ -1,8 +1,5 @@
 package at.schrogl.aoc2025.day01
 
-import java.nio.file.Files
-import kotlin.jvm.java
-
 private const val SAMPLE_INPUT = "day01_1_sample.txt"
 private const val ASSIGNMENT_INPUT = "day01_1_assignment.txt"
 
