@@ -1,6 +1,6 @@
 package at.schrogl.aoc2025.day01
 
-private const val SAMPLE_INPUT = "day01_1_sample.txt"
+private const val SAMPLE_INPUT = "day01_sample.txt"
 private const val ASSIGNMENT_INPUT = "day01_1_assignment.txt"
 
 class Day01a {

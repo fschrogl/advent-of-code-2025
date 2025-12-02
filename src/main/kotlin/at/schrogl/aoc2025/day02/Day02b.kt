@@ -1,9 +1,9 @@
 package at.schrogl.aoc2025.day02
 
 private const val SAMPLE_INPUT = "day02_sample.txt"
-private const val ASSIGNMENT_INPUT = "day02_1_assignment.txt"
+private const val ASSIGNMENT_INPUT = "day02_2_assignment.txt"
 
-class Day02a {
+class Day02b {
 
     fun run() {
         Day02b::class.java.getResourceAsStream(ASSIGNMENT_INPUT)?.use { file ->
@@ -19,7 +19,7 @@ class Day02a {
         range.split("-").let { (min, max) ->
             (min.toLong()..max.toLong())
                 .filter {
-                    it.toString().matches("(\\d+)\\1".toRegex())
+                    it.toString().matches("(\\d+?)\\1+".toRegex())
                 }
         }
 }
